@@ -4,7 +4,7 @@ import NavBar from "./component/NavBar";
 import Hero from "./component/Hero";
 import AboutMe from "./component/AboutMe";
 import TechNologies from "./component/TechNologies";
-import Experience from "./component/Experience";
+import Services from "./component/Services";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact.";
 
@@ -20,7 +20,7 @@ function App() {
             <NavBar />
             <AboutMe />
             <TechNologies />
-            <Experience />
+            <Services />
             <Projects />
             <Contact />
       </div>

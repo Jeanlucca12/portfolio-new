@@ -3,7 +3,7 @@ import { FaPencilRuler } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa6";
 import { FaLightbulb } from "react-icons/fa";
 
-export default function Experience() {
+export default function Services() {
   return (
     <section className="border-b border-neutral-800 pb-20">
       <div className="container px-6 py-10 mx-auto">
@@ -77,3 +77,4 @@ export default function Experience() {
     </section>
   );
 }
+
