@@ -64,26 +64,26 @@ const NavBar = () => {
           id="menu"
           className="md:hidden flex flex-col items-center bg-gray-700 p-6 space-y-4"
         >
-          <a href="#" className="text-gray-300 border-b-2 border-orange-400">
+          <a href="#home" className="text-gray-300 border-b-2 border-orange-400">
             Home
           </a>
           <a
-            href="#"
+            href="#section1"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
+          >
+            About Me
+          </a>
+          <a
+            href="#section2"
             className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
           >
             Services
           </a>
           <a
-            href="#"
+            href="#section3"
             className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
           >
             Projects
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
-          >
-            About Me
           </a>
         </div>
       )}

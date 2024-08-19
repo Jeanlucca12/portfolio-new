@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboutMe from "../../public/foto.jpg";
-import { ABOUT_TEXT, ABOUT_TEXT2 } from "../constants/index";
+import { ABOUT_TEXT, ABOUT_TEXT2, ABOUT_TEXT3 } from "../constants/index";
 import {FaArrowRight} from 'react-icons/fa'
 import {FaCode} from 'react-icons/fa'
 import ImgBrazil from "../../public/brazil.svg";
@@ -14,7 +14,7 @@ const AboutMe = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-300 via-slate-400 
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
                     to-purple-500 bg-clip-text text-transparent "
       >
         About me
@@ -50,12 +50,16 @@ const AboutMe = () => {
             </span>
 
               <div className="mt-8">
-                {ABOUT_TEXT}
+              {ABOUT_TEXT}
               </div>
               
               <div className="mt-8">
               {ABOUT_TEXT2}
               </div> 
+
+              <div className="mt-8">
+               <span className="font-semibold"> {ABOUT_TEXT3} </span> 
+              </div>
               
               <div className="mt-16 flex items-center gap-8 ">
 

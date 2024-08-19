@@ -12,12 +12,13 @@ export default function Services() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-300 via-slate-400 
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white
                     to-purple-500 bg-clip-text text-transparent "
       >
         Services
       </motion.h2>
 
+      
         <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
           <div className="mt-6 grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
             <div className="space-y-3">
