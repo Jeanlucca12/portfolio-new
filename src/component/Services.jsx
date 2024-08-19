@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FaCode } from "react-icons/fa";
 import { FaPencilRuler } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa6";
@@ -5,18 +6,17 @@ import { FaLightbulb } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <section className="border-b border-neutral-800 pb-20">
+    <section id="section2" className="border-b border-neutral-800 pb-20">
       <div className="container px-6 py-10 mx-auto">
-      <h1 className=" text-white text-4xl text-center my-8">
-        See
-        <span className="text-neutral-400"> my services</span>
-      </h1>
-
-        <div className="mt-2 flex justify-center">
-          <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-          <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-          <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-        </div>
+      <motion.h2
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1 }}
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-300 via-slate-400 
+                    to-purple-500 bg-clip-text text-transparent "
+      >
+        Services
+      </motion.h2>
 
         <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
           <div className="mt-6 grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">

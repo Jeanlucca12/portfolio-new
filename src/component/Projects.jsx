@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa";
@@ -11,10 +12,17 @@ import { FaCss3Alt } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-800 pb-10">
-      <h2 className="text-center my-20 text-3xl text-[#9ba9fcf4] font-medium opacity-85">
+    <section id="section3">
+      <div className="border-b border-neutral-800 pb-10">
+      <motion.h2
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1 }}
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-300 via-slate-400 
+                    to-purple-500 bg-clip-text text-transparent "
+      >
         Projects
-      </h2>
+      </motion.h2>
 
       <section className="mx-6 grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Card 1 */}
@@ -166,6 +174,8 @@ const Projects = () => {
         </article>
       </section>
     </div>
+    </section>
+    
   );
 };
 

@@ -12,26 +12,26 @@ const NavBar = () => {
       <div className="container flex items-center justify-center p-6 mx-auto text-gray-500 capitalize dark:text-gray-300">
         <div className="hidden md:flex space-x-8">
           <a
-            href="#"
-            className="text-gray-300 border-b-2 border-orange-400 mx-1.5 sm:mx-1"
+            href="#home"
+            className="text-gray-300 border-b-2 border-blue-500 mx-1.5 sm:mx-1"
           >
             Home
           </a>
           <a
-            href="#"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400 mx-1.5 sm:mx-6"
+            href="#section1"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             About Me
           </a>
           <a
-            href="#"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400 mx-1.5 sm:mx-6"
+            href="#section2"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             Services
           </a>
           <a
-            href="#"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400 mx-1.5 sm:mx-6"
+            href="#section3"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             Projects
           </a>

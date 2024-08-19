@@ -8,11 +8,17 @@ import ImgBrazil from "../../public/brazil.svg";
 
 const AboutMe = () => {
   return (
-    <div className=" border-b border-neutral-800 pb-4">
-      <h1 className="text-4xl text-center my-20">
-        About
-        <span className="text-neutral-400"> Me</span>
-      </h1>
+    <section id="section1">
+      <div className=" border-b border-neutral-800 pb-4">
+      <motion.h2
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1 }}
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-300 via-slate-400 
+                    to-purple-500 bg-clip-text text-transparent "
+      >
+        About me
+      </motion.h2>
       <div className="flex flex-wrap">
         <motion.div
           initial={{ opacity: 0, x: -150 }}
@@ -73,6 +79,8 @@ const AboutMe = () => {
         </div>
       </div>
     </div>
+    </section>
+    
   );
 };
 
