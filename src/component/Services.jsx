@@ -15,7 +15,7 @@ export default function Services() {
         className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white
                     to-purple-500 bg-clip-text text-transparent "
       >
-        Services
+        Serviços
       </motion.h2>
 
       
@@ -26,10 +26,10 @@ export default function Services() {
                 <FaCode className="w-6 h-6"/>
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Web Development</h1>
+              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Desenvolvimento Web</h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-              Creation of modern and responsive websites, using the latest web technologies to guarantee performance, security and an exceptional user experience.
+              Criação de sites modernos e responsivos, utilizando as mais recentes tecnologias web para garantir desempenho, segurança e uma experiência de usuário excepcional.
               </p>
             </div>
 
@@ -41,7 +41,7 @@ export default function Services() {
               <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">UX/UI Design</h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-              Interface designs that combine beauty and functionality, focused on the user experience to create digital products that are intuitive and pleasant to use.
+              Designs de interfaces que aliam beleza e funcionalidade, focados na experiência do usuário para criar produtos digitais intuitivos e agradáveis ​​de usar.
               </p>
             </div>
 
@@ -53,7 +53,7 @@ export default function Services() {
               <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Mobile Design</h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-              Design of mobile interfaces optimized for different devices, ensuring a fluid and pleasant experience on any screen.
+              Design de interfaces mobile otimizadas para diferentes dispositivos, garantindo uma experiência fluida e agradável em qualquer tela.
               </p>
             </div>
 
@@ -62,10 +62,10 @@ export default function Services() {
                 <FaLightbulb className="w-6 h-6"/>
               </span>
 
-              <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Ideas and adjustments</h1>
+              <h1 className="text-xl font-semibold text-gray-700  dark:text-white">Ideias e Ajustes</h1>
 
               <p className="text-gray-500 dark:text-gray-300">
-              Turn your ideas into reality! I offer support for adjustments, improvements and implementation of new features in your digital project.
+              Transforme suas ideias em realidade! Ofereço suporte para ajustes, melhorias e implementação de novas funcionalidades no seu projeto digital.
               </p>
             </div>
           </div>

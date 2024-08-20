@@ -21,19 +21,19 @@ const NavBar = () => {
             href="#section1"
             className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
-            About Me
+            Sobre mim
           </a>
           <a
             href="#section2"
             className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
-            Services
+            Serviços
           </a>
           <a
             href="#section3"
             className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500 mx-1.5 sm:mx-6"
           >
-            Projects
+            Projetos
           </a>
         </div>
         <div className="md:hidden ml-auto">
@@ -62,28 +62,28 @@ const NavBar = () => {
       {isOpen && (
         <div
           id="menu"
-          className="md:hidden flex flex-col items-center bg-gray-700 p-6 space-y-4"
+          className="md:hidden flex flex-col items-center backdrop-blur-md p-6 space-y-4"
         >
-          <a href="#home" className="text-gray-300 border-b-2 border-orange-400">
+          <a href="#home" className="text-gray-300 border-b-2 border-blue-500">
             Home
           </a>
           <a
             href="#section1"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500"
           >
-            About Me
+            Sobre mim
           </a>
           <a
             href="#section2"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500"
           >
-            Services
+            Serviços
           </a>
           <a
             href="#section3"
-            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-orange-400"
+            className="text-gray-300 border-b-2 border-transparent hover:text-white hover:border-blue-500"
           >
-            Projects
+            Projetos
           </a>
         </div>
       )}

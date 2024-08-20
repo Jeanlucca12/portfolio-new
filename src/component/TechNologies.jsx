@@ -6,7 +6,7 @@ import ImgCss from "../../public/css.png";
 import ImgJavascript from "../../public/javascript.png";
 import ImgReact from "../../public/react.png";
 import ImgTailwind from "../../public/tailwindcss.png";
-import ImgNode from "../../public/nodejs.png";
+import ImgSass from "../../public/sass.png";
 import ImgFigma from "../../public/figma.png";
 
 const TechNologies = () => {
@@ -31,7 +31,7 @@ const TechNologies = () => {
         className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
                     to-purple-500 bg-clip-text text-transparent "
       >
-        Technologies
+        Tecnologias
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -106,7 +106,7 @@ const TechNologies = () => {
           className=" rounded-2xl bg-slate-800 p-5"
         >
           <img
-            src={ImgNode}
+            src={ImgSass}
             alt="NodeJS icon"
             className="w-20 h-20 text-7xl rounded-2xl "
           />

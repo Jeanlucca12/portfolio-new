@@ -17,7 +17,7 @@ const AboutMe = () => {
         className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
                     to-purple-500 bg-clip-text text-transparent "
       >
-        About me
+        Sobre mim
       </motion.h2>
       <div className="flex flex-wrap">
         <motion.div
@@ -41,7 +41,7 @@ const AboutMe = () => {
             >
 
             <span className="text-white text-2xl my-2 inline-flex items-center"> 
-              Hi! See who is behind the code <FaCode className="ml-4"/> 
+            Olá! Veja quem está por trás do código <FaCode className="ml-4"/> 
               
              <div class="flex justify-center items-center"/>
             <div class="flex items-center justify-center w-6 h-6 mx-2 overflow-hidden rounded-full">
@@ -68,7 +68,7 @@ const AboutMe = () => {
               download="resume.pdf" 
               className="bg-gray-800 text-white rounded-md px-6 py-3 flex items-center hover:bg-gray-700 transition-colors"
             >
-              Resume
+              Currículo
               <FaArrowRight className="ml-2" />
             </a>
 

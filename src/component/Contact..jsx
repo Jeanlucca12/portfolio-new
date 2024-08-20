@@ -9,10 +9,10 @@ const Contact = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
+        className="my-16 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
                     to-purple-500 bg-clip-text text-transparent "
       >
-        Get contact
+        Entre em contato
       </motion.h2>
       <p className="mb-2 text-sm tracking-tight">{CONTACT.address}</p>
       <p className="mb-2 text-sm tracking-tight">{CONTACT.phoneNo}</p>

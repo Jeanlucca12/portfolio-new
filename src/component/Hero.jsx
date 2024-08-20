@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <div className="text-center mt-6">
           <h1 className="text-white text-3xl font-bold">Jean Bueno</h1>
-          <p className="text-blueGray-300 uppercase font-semibold mt-2">Front-end Developer</p>
+          <p className="text-blueGray-300 uppercase font-semibold mt-2">Desenvolvedor Front-end</p>
           <div className="flex justify-center mt-4 space-x-4">
             <a href="https://www.linkedin.com/in/jeanluccabueno/" target="_blank" rel="Jean Bueno Linkedin">
               <button className="bg-blue-700 text-white w-8 h-8 rounded-full flex items-center justify-center">

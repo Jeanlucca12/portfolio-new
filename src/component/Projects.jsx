@@ -21,7 +21,7 @@ const Projects = () => {
         className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
                     to-purple-500 bg-clip-text text-transparent "
       >
-        Projects
+        Projetos
       </motion.h2>
 
       <section className="mx-6 grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -36,22 +36,22 @@ const Projects = () => {
     </div>
 
     <div className="flex flex-col justify-center p-6 col-span-5">
-      <small className="mb-4 font-medium">Web Development</small>
+      <small className="mb-4 font-medium">Desenvolvimento Web</small>
       <h3 className="text-balance text-xl font-bold text-black lg:text-2xl dark:text-white" aria-describedby="articleDescription">
         Jean Bueno - Links
       </h3>
       <p id="articleDescription" className="my-4 max-w-lg text-pretty text-sm">
-        This project was created to store and display the user's main useful links. With it, you can navigate between Linkedin, Portfolio, and Github.
+      Este projeto foi criado para armazenar e exibir os principais links úteis do usuário. Com ele, você pode navegar entre Linkedin, Portfólio e Github.
       </p>
 
       <div className="flex flex-col items-start w-fit">
         <a
           href="https://jeanbueno-links.vercel.app/"
-          className="px-2 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
+          className="px-1 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
           target="_blank"
         >
           <span className="flex items-center">
-            View the project
+            Veja o projeto
             <FaArrowRight className="ml-2" />
           </span>
         </a>
@@ -78,22 +78,22 @@ const Projects = () => {
     </div>
 
     <div className="flex flex-col justify-center p-6 col-span-5">
-      <small className="mb-4 font-medium">Design / Web Development</small>
+      <small className="mb-4 font-medium">Design / Desenvolvimento Web</small>
       <h3 className="text-balance text-xl font-bold text-black lg:text-2xl dark:text-white" aria-describedby="articleDescription">
         Dev Burguer
       </h3>
       <p id="articleDescription" className="my-4 max-w-lg text-pretty text-sm">
-        This is an online menu website, where the customer can place an order by adding and removing items to the cart, and at the end a message will be sent to the restaurant's Whatsapp.
+      Este é um site de cardápio online, onde o cliente pode fazer um pedido adicionando e retirando itens do carrinho, e ao final será enviada uma mensagem para o Whatsapp do restaurante.
       </p>
 
       <div className="flex flex-col items-start w-fit">
         <a
           href="https://jeanbueno-links.vercel.app/"
-          className="px-2 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
+          className="px-1 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
           target="_blank"
         >
           <span className="flex items-center">
-            View the project
+            Veja o projeto
             <FaArrowRight className="ml-2" />
           </span>
         </a>
@@ -119,22 +119,22 @@ const Projects = () => {
     </div>
 
     <div className="flex flex-col justify-center p-6 col-span-5">
-      <small className="mb-4 font-medium">Web Development</small>
+      <small className="mb-4 font-medium">Desenvolvimento Web</small>
       <h3 className="text-balance text-xl font-bold text-black lg:text-2xl dark:text-white" aria-describedby="articleDescription">
-        Project PrimeFlix
+        Projeto PrimeFlix
       </h3>
       <p id="articleDescription" className="my-4 max-w-lg text-pretty text-sm">
-        This is a study project on ReactJS. It was created using an API for the films currently showing at the cinema and in it you can check more details and also the trailer for the film in question.
+      Este é um projeto de estudo sobre ReactJS. Ele foi criado utilizando uma API para os filmes em exibição no cinema e nele você pode conferir mais detalhes e também o trailer do filme em questão.
       </p>
 
       <div className="flex flex-col items-start w-fit">
         <a
           href="https://jeanbueno-links.vercel.app/"
-          className="px-2 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
+          className="px-1 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
           target="_blank"
         >
           <span className="flex items-center">
-            View the project
+            Veja o projeto
             <FaArrowRight className="ml-2" />
           </span>
         </a>
