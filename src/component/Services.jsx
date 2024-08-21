@@ -13,8 +13,7 @@ export default function Services() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white
-                    to-purple-500 bg-clip-text text-transparent "
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-200 to-white bg-clip-text text-transparent "
       >
         Serviços
       </motion.h2>

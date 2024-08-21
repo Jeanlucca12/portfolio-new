@@ -14,8 +14,8 @@ const AboutMe = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-500 via-white 
-                    to-purple-500 bg-clip-text text-transparent "
+        className="my-20 text-4xl text-center font-light bg-gradient-to-r from-slate-200 to-white 
+                     bg-clip-text text-transparent "
       >
         Sobre mim
       </motion.h2>
@@ -74,7 +74,7 @@ const AboutMe = () => {
             </a>
 
 
-      <a href="https://www.linkedin.com/in/jeanluccabueno/" target="_blank" className="text-white hover:underline">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/jeanluccabueno/" target="_blank" className="text-white hover:underline sm:underline">LinkedIn</a>
       <a href="https://github.com/Jeanlucca12" target="_blank" className="text-white hover:underline">Github</a>
       <a href="#" className="text-white hover:underline">Figma</a>
     </div>
