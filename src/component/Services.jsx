@@ -3,6 +3,7 @@ import { FaCode } from "react-icons/fa";
 import { FaPencilRuler } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa6";
 import { FaLightbulb } from "react-icons/fa";
+import ImgService from "../../public/service.jpg";
 
 export default function Services() {
   return (
@@ -71,7 +72,7 @@ export default function Services() {
           </div>
 
           <div className="mt-6 hidden lg:flex lg:w-1/2 lg:justify-center">
-            <img className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[28rem] xl:h-[28rem] rounded-full" src="/public/service.jpg" alt=""/>
+            <img className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[28rem] xl:h-[28rem] rounded-full" src={ImgService} alt=""/>
           </div>
         </div>
       </div>
