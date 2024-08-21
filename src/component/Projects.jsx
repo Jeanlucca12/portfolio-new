@@ -10,6 +10,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import ImgLinks from '/public/jean-links.png'
+import ImgDevburguer from '/public/dev-burguer.png'
+import ImgPrimeflix from '/public/primeflix.png'
 
 const Projects = () => {
   return (
@@ -72,7 +74,7 @@ const Projects = () => {
   <article className="group grid rounded-xl max-w-2xl grid-cols-1 md:grid-cols-8 overflow-hidden border border-slate-300 bg-slate-100 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300">
     <div className="col-span-3 overflow-hidden">
       <img
-        src="/public/dev-burguer.png"
+        src={ImgDevburguer}
         className="h-52 md:h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105"
         alt="Restaurant project"
       />
@@ -113,7 +115,7 @@ const Projects = () => {
   <article className="group grid rounded-xl max-w-2xl grid-cols-1 md:grid-cols-8 overflow-hidden border border-slate-300 bg-slate-100 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300">
     <div className="col-span-3 overflow-hidden">
       <img
-        src="/public/movies.png"
+        src={ImgPrimeflix}
         className="h-52 md:h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105"
         alt="Movies Project"
       />

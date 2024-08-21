@@ -7,7 +7,7 @@ import {FaGithub} from 'react-icons/fa'
 const Hero = () => {
   return (
     <section id='home'>
-      <header className="relative w-screen h-screen bg-cover bg-center" style={{ backgroundImage: `url('../../public/bg-filter.png')` }}>
+      <header className="relative w-screen h-screen bg-cover bg-center" style={{ backgroundImage: `url('/public/bg-filter.png')` }}>
       <div className="flex flex-col justify-center items-center h-full">
         <img
           src={ProfilePic}
