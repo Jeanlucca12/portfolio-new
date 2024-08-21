@@ -65,6 +65,7 @@ const AboutMe = () => {
 
               <a 
               href="/public/resume.pdf" 
+              target="_blank"
               download="resume.pdf" 
               className="bg-gray-800 text-white rounded-md px-6 py-3 flex items-center hover:bg-gray-700 transition-colors"
             >
@@ -73,8 +74,8 @@ const AboutMe = () => {
             </a>
 
 
-      <a href="https://www.linkedin.com/in/jeanluccabueno/" className="text-white hover:underline">LinkedIn</a>
-      <a href="https://github.com/Jeanlucca12" className="text-white hover:underline">Github</a>
+      <a href="https://www.linkedin.com/in/jeanluccabueno/" target="_blank" className="text-white hover:underline">LinkedIn</a>
+      <a href="https://github.com/Jeanlucca12" target="_blank" className="text-white hover:underline">Github</a>
       <a href="#" className="text-white hover:underline">Figma</a>
     </div>
 
