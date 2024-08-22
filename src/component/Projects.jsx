@@ -90,7 +90,7 @@ const Projects = () => {
 
       <div className="flex flex-col items-start w-fit">
         <a
-          href="https://jeanbueno-links.vercel.app/"
+          href="https://cardapio-online-jean-luccas-projects.vercel.app/"
           className="px-1 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
           target="_blank"
         >
@@ -131,7 +131,7 @@ const Projects = () => {
 
       <div className="flex flex-col items-start w-fit">
         <a
-          href="https://jeanbueno-links.vercel.app/"
+          href="https://projeto-prime-flix.vercel.app/"
           className="px-1 font-medium text-neutral-800 underline-offset-2 hover:underline focus:underline focus:outline-none dark:text-white"
           target="_blank"
         >
