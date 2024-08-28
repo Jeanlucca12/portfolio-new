@@ -28,7 +28,7 @@ const Hero = () => {
               <FaGithub/>
               </button>
             </a>
-            <a href="jeanluccabueno@gmail.com">
+            <a href="mailto:jeanluccabueno@gmail.com" target="_blank">
               <button className="bg-red-600 text-white w-8 h-8 rounded-full flex items-center justify-center">
                 <FaEnvelope/>
               </button>
